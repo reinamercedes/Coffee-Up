@@ -1,0 +1,116 @@
+//variables y mixins
+
+//css
+
+#navigation {
+	.row {
+		margin: 0 -15px -19px -15px;
+	}
+	nav.navbar {
+		background-color: black;
+		img {
+			width: 40%;
+		}
+	}
+	div#bs-example-navbar-collapse-1 {
+		a {
+			color: white;
+			font-family: "Indie Flower";
+			font-size: 2em;
+		    text-decoration: none;
+		    &:hover {
+		    	color: #0ECCC0;
+		    	background-color: transparent;
+		    	border-bottom: 3px solid #0ECCC0;  
+		    }
+		}
+	}
+}
+#hero-image {
+	background-image: url("../img/fondo taza.png");
+	padding: 23% 0 4%;
+	background-position: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	h1,h3 {
+		color: black;
+		text-align: center;
+	}
+	h1 {
+		font-family: "Press Start 2P";
+	}
+	h3 {
+		font-family: "Indie Flower";
+	}
+}
+#about {
+    background-image: url("../img/fondo loco.png");
+	background-color: rgba(0, 0, 0, .8);
+	background-blend-mode: color;
+	background-size: 110%;
+	.col-md-6 {
+		padding: 5%;
+	}
+	h2 {
+		color: #0ECCC0;
+		text-align: right;
+		font-weight: 600;
+		font-family: "Press Start 2P";
+	}
+	h3 {
+		font-size: 2em;
+		font-weight: 500;
+		color: white;
+		font-family: "Indie Flower";
+		text-align: justify;
+	}
+}
+#ourteam {
+	padding: 3%;
+	background-image: url("../img/starbcks coffee.jpg");
+	background-color: rgba(0, 0, 0, .8);
+	background-blend-mode: color;
+	color: white;
+	
+	.title {
+		h2 {
+			color: #0ECCC0;
+			text-align: center;
+			font-family: "Press Start 2P";
+			margin: 4% 0;
+		}
+	}
+	.image-ceo {
+		margin-bottom: 5%;
+		img {
+			margin: auto;
+		    border-radius: 75%;
+		    width: 18%;
+		    border: 3px solid #0ECCC0;
+		}
+	    h3,h4 {
+	    	font-family: "Indie Flower";
+	    	text-align: center;
+	    	text-transform: uppercase;
+	    	font-weight: 700;
+	    }
+	}
+	.col-md-3.data-team-up,
+	.col-md-3.data-team-down {
+		color: white;
+		text-align: center;
+		font-family: "Indie Flower";
+		text-transform: uppercase;
+		font-weight: 900;
+		margin-top: 8%;
+		img {
+			border: 3px solid #0ECCC0;
+		}
+	}
+}
+footer {
+	text-align: center;
+	color: black;
+	font-family: "Press Start 2P"; 
+	background-color: #0ECCC0;
+}

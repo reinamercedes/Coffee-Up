@@ -1,0 +1,91 @@
+#navigation .row {
+  margin: 0 -15px -19px -15px; }
+#navigation nav.navbar {
+  background-color: black; }
+  #navigation nav.navbar img {
+    width: 40%; }
+#navigation div#bs-example-navbar-collapse-1 a {
+  color: white;
+  font-family: "Indie Flower";
+  font-size: 2em;
+  text-decoration: none; }
+  #navigation div#bs-example-navbar-collapse-1 a:hover {
+    color: #0ECCC0;
+    background-color: transparent;
+    border-bottom: 3px solid #0ECCC0; }
+
+#hero-image {
+  background-image: url("../img/fondo taza.png");
+  padding: 23% 0 4%;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+  #hero-image h1, #hero-image h3 {
+    color: black;
+    text-align: center; }
+  #hero-image h1 {
+    font-family: "Press Start 2P"; }
+  #hero-image h3 {
+    font-family: "Indie Flower"; }
+
+#about {
+  background-image: url("../img/fondo loco.png");
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: color;
+  background-size: 110%; }
+  #about .col-md-6 {
+    padding: 5%; }
+  #about h2 {
+    color: #0ECCC0;
+    text-align: right;
+    font-weight: 600;
+    font-family: "Press Start 2P"; }
+  #about h3 {
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+    font-family: "Indie Flower";
+    text-align: justify; }
+
+#ourteam {
+  padding: 3%;
+  background-image: url("../img/starbcks coffee.jpg");
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: color;
+  color: white; }
+  #ourteam .title h2 {
+    color: #0ECCC0;
+    text-align: center;
+    font-family: "Press Start 2P";
+    margin: 4% 0; }
+  #ourteam .image-ceo {
+    margin-bottom: 5%; }
+    #ourteam .image-ceo img {
+      margin: auto;
+      border-radius: 75%;
+      width: 18%;
+      border: 3px solid #0ECCC0; }
+    #ourteam .image-ceo h3, #ourteam .image-ceo h4 {
+      font-family: "Indie Flower";
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700; }
+  #ourteam .col-md-3.data-team-up,
+  #ourteam .col-md-3.data-team-down {
+    color: white;
+    text-align: center;
+    font-family: "Indie Flower";
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 8%; }
+    #ourteam .col-md-3.data-team-up img,
+    #ourteam .col-md-3.data-team-down img {
+      border: 3px solid #0ECCC0; }
+
+footer {
+  text-align: center;
+  color: black;
+  font-family: "Press Start 2P";
+  background-color: #0ECCC0; }
+
+/*# sourceMappingURL=main.css.map */
