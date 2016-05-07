@@ -83,9 +83,14 @@
       border: 3px solid #0ECCC0; }
 
 footer {
-  text-align: center;
-  color: black;
-  font-family: "Press Start 2P";
   background-color: #0ECCC0; }
+  footer h4 {
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    font-family: "Press Start 2P"; }
+    footer h4 span {
+      font-size: 1.4em;
+      font-family: "Indie Flower"; }
 
 /*# sourceMappingURL=main.css.map */
